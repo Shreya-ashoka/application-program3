@@ -88,4 +88,9 @@ The shortest distance from city 1 to itself is 0.
 The shortest distance from city 1 to city 2 is 3.
 The shortest distance from city 1 to city 3 is 5.
 The shortest distance from city 1 to city 4 is 4.
-Each line in the output corresponds to a city, and the value represents the shortest distance from the source city (city 1) to that particular city.
+Each line in the output corresponds to a city, and the value represents the shortest distance from the source city (city 1) to
+tIn this example, you have 4 cities and 5 roads connecting them. The source city is 1. 
+The program uses the Bellman-Ford algorithm to compute the shortest distances from city 1 to all other cities. 
+The output shows the shortest distance from city 1 to each city. City 1 is at a distance of 0 from itself, 
+city 2 is at a distance of 1, city 3 is at a distance of 3, and 
+city 4 is at a distance of 6.hat particular city.
